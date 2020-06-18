@@ -29,7 +29,7 @@ class JKTabBarController: UITabBarController {
         
         childVC.tabBarItem.image = img
         childVC.tabBarItem.selectedImage = selectedImg
-        let nav = UINavigationController(rootViewController: childVC)
+        let nav = JKNavigationController(rootViewController: childVC)
         addChild(nav)
     }
 
