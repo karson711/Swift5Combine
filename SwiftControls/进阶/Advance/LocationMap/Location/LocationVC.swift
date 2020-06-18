@@ -2,7 +2,7 @@
 //  LocationVC.swift
 //  SwiftControls
 //
-//  Created by anfa on 2020/6/17.
+//  Created by jikun on 2020/6/17.
 //  Copyright © 2020 anfa. All rights reserved.
 //
 

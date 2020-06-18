@@ -2,7 +2,7 @@
 //  ThreadCommunicationVC.swift
 //  SwiftControls
 //
-//  Created by anfa on 2020/6/16.
+//  Created by jikun on 2020/6/16.
 //  Copyright © 2020 anfa. All rights reserved.
 //
 

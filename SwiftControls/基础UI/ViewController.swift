@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  SwiftControls
 //
-//  Created by anfa on 2019/9/11.
+//  Created by jikun on 2019/9/11.
 //  Copyright © 2019 anfa. All rights reserved.
 //
 
@@ -12,7 +12,7 @@ class ViewController: UIViewController{
 
     var tableView:UITableView!
     
-    var array = [["UITableView使用"],["UICollectionView使用"],["WKWebView使用","UITextView使用","UITextField使用","UIButton使用","UILabel使用","UIPickerView/UIDatePicker使用","UISwitch、UISlider、UIsegmentControl","UIImageView使用","UIAlertViewController使用"]]
+    var array = [["UITableView使用"],["UICollectionView使用"],["控制器的跳转和传值"],["WKWebView使用","UITextView使用","UITextField使用","UIButton使用","UILabel使用","UIPickerView/UIDatePicker使用","UISwitch、UISlider、UIsegmentControl","UIImageView使用","UIAlertViewController使用"]]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -56,7 +56,7 @@ extension ViewController : UITableViewDelegate,UITableViewDataSource{
     }
     // header标题
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        let titleArr = ["UITableView","UICollectionView","Others"]
+        let titleArr = ["UITableView","UICollectionView","控制器","Others"]
         return titleArr[section]
     }
     // header视图
@@ -87,6 +87,13 @@ extension ViewController : UITableViewDelegate,UITableViewDataSource{
                 vc = CollectionViewController()
             }
         }else if indexPath.section == 2{
+            if indexPath.row == 0{
+                let frist:FristViewController = UIStoryboard(name: "SkipAndPassValue", bundle: nil).instantiateViewController(withIdentifier: "frist") as! FristViewController
+                self.navigationController?.pushViewController(frist, animated: true)
+                
+                return
+            }
+        }else if indexPath.section == 3{
             if indexPath.row == 0{
                 vc = SimpleWebViewController()
             }else if indexPath.row == 1{

@@ -2,7 +2,7 @@
 //  AVPlayerVC.swift
 //  SwiftControls
 //
-//  Created by anfa on 2020/5/18.
+//  Created by jikun on 2020/5/18.
 //  Copyright © 2020 anfa. All rights reserved.
 //
 

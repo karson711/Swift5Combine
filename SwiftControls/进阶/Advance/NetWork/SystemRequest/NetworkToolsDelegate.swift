@@ -2,7 +2,7 @@
 //  NetworkToolsDelegate.swift
 //  SwiftControls
 //
-//  Created by anfa on 2020/6/13.
+//  Created by jikun on 2020/6/13.
 //  Copyright © 2020 anfa. All rights reserved.
 //
 

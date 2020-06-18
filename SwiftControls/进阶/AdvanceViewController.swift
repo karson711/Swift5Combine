@@ -2,7 +2,7 @@
 //  AdvanceViewController.swift
 //  SwiftControls
 //
-//  Created by anfa on 2020/5/15.
+//  Created by jikun on 2020/5/15.
 //  Copyright © 2020 anfa. All rights reserved.
 //
 
@@ -19,7 +19,7 @@ class AdvanceViewController: UIViewController {
         ["数据存储"],
         ["系统请求","封装方法使用","Alamofire基本使用","Alamofire使用案例","网络信息获取"],
         ["Thread的使用","GCD的使用","Operation的使用","线程间通讯","多线程-互斥锁"],
-        ["定位"]
+        ["定位","高德地图使用"]
     ]
     
     override func viewDidLoad() {
@@ -143,6 +143,8 @@ extension AdvanceViewController:UITableViewDelegate,UITableViewDataSource{
             //定位与地图
             if indexPath.row == 0{
                 vc = LocationVC()
+            }else if indexPath.row == 1{
+                vc = GaoDeMapViewController()
             }
         }
         self.navigationController?.pushViewController(vc, animated: true)

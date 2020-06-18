@@ -2,7 +2,7 @@
 //  SwiftControlsTests.swift
 //  SwiftControlsTests
 //
-//  Created by anfa on 2019/9/11.
+//  Created by jikun on 2019/9/11.
 //  Copyright © 2019 anfa. All rights reserved.
 //
 

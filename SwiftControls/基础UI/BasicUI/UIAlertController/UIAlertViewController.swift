@@ -2,7 +2,7 @@
 //  UIAlertViewController.swift
 //  SwiftControls
 //
-//  Created by anfa on 2020/5/15.
+//  Created by jikun on 2020/5/15.
 //  Copyright © 2020 anfa. All rights reserved.
 //
 
