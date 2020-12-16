@@ -1,0 +1,6 @@
+framework module Pods_Swift5Combine {
+  umbrella header "Pods-Swift5Combine-umbrella.h"
+
+  export *
+  module * { export * }
+}
