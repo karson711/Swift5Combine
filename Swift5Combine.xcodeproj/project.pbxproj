@@ -518,6 +518,7 @@
 		CC7335472589B92F0028298D /* yungfan.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CC7335422589B92F0028298D /* yungfan.mp4 */; };
 		CC7335482589B92F0028298D /* ddz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC7335432589B92F0028298D /* ddz.mp3 */; };
 		CC7335492589B92F0028298D /* wangzha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC7335442589B92F0028298D /* wangzha.mp3 */; };
+		CC73357F2589E08E0028298D /* JKBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73357E2589E08E0028298D /* JKBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1057,6 +1058,7 @@
 		CC7335422589B92F0028298D /* yungfan.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = yungfan.mp4; sourceTree = "<group>"; };
 		CC7335432589B92F0028298D /* ddz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ddz.mp3; sourceTree = "<group>"; };
 		CC7335442589B92F0028298D /* wangzha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wangzha.mp3; sourceTree = "<group>"; };
+		CC73357E2589E08E0028298D /* JKBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKBaseViewController.swift; sourceTree = "<group>"; };
 		D5EE9C7B0F36730857343825 /* Pods-Swift5Combine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5Combine.debug.xcconfig"; path = "Target Support Files/Pods-Swift5Combine/Pods-Swift5Combine.debug.xcconfig"; sourceTree = "<group>"; };
 		E047DDF4B360EF7925780BA6 /* Pods-Swift5Combine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5Combine.release.xcconfig"; path = "Target Support Files/Pods-Swift5Combine/Pods-Swift5Combine.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1121,10 +1123,9 @@
 			isa = PBXGroup;
 			children = (
 				CC732CB62589B7010028298D /* AppDelegate.swift */,
-				CC7331082589B75D0028298D /* JKNavigationController.swift */,
-				CC7331072589B75D0028298D /* JKTabBarController.swift */,
 				CC73311C2589B7770028298D /* GaoDeMap-Bridging-Header.h */,
 				CC7331022589B7510028298D /* Constant.swift */,
+				CC73357D2589E03E0028298D /* Base */,
 				CC73353F2589B92F0028298D /* Resources */,
 				CC73312C2589B9180028298D /* 基础UI */,
 				CC7333092589B91C0028298D /* 进阶 */,
@@ -2061,6 +2062,16 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		CC73357D2589E03E0028298D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CC7331082589B75D0028298D /* JKNavigationController.swift */,
+				CC7331072589B75D0028298D /* JKTabBarController.swift */,
+				CC73357E2589E08E0028298D /* JKBaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		F83D3BB1AF6365F4A67457F1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -2756,6 +2767,7 @@
 				CC7333602589B91D0028298D /* UIPickerViewController.swift in Sources */,
 				CC7335272589B91E0028298D /* NewsTableViewCell.swift in Sources */,
 				CC7333582589B91D0028298D /* UITextViewViewController.swift in Sources */,
+				CC73357F2589E08E0028298D /* JKBaseViewController.swift in Sources */,
 				CC73350B2589B91E0028298D /* NibTableViewCell.swift in Sources */,
 				CC73352E2589B91E0028298D /* LocationVC.swift in Sources */,
 				CC7335172589B91E0028298D /* GCDViewController.swift in Sources */,

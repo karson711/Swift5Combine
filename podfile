@@ -6,16 +6,15 @@ target 'Swift5Combine' do
   use_frameworks!
 
   # Pods for SwiftControls
-
-#  source 'https://github.com/CocoaPods/Specs.git'
-#source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
-  #source 'https://gitee.com/mirrors/CocoaPods-Specs.git'
 source 'https://cdn.cocoapods.org/'
 
   pod 'Alamofire'
   pod 'Kingfisher'
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'SnapKit'
+  
+  
   # Pods for 第三方地图的使用-高德
   pod 'AMap2DMap'
   pod 'AMapSearch'
